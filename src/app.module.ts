@@ -10,9 +10,9 @@ import { join } from "path"
     type: 'postgres',
     host: 'localhost',
     port: 5432,
-    database: 'first_look_nest',
+    database: '####',
     username: 'postgres',
-    password: 'lelkek2004',
+    password: '####',
     entities: [join(__dirname, '**', '*.entity.{ts,js}')],
     migrations: [join(__dirname, '**', '*.migration.{ts,js}')],
     synchronize: true
